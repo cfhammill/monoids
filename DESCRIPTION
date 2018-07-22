@@ -1,0 +1,16 @@
+Package: monoids
+Version: 0.0.0.9000
+Title: Simple S3 Monoids
+Description: Implement the monoid typeclass with S3 generics and implementations
+for R's most common types.
+Authors@R: person("Chris", "Last", "cfhammill@gmail.com", c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Imports: 
+    purrr,
+    dplyr,
+    rlang
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
